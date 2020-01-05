@@ -6,9 +6,26 @@ body{
 }
 
 h2{
-    background-color: #B3A742;
     padding: 5px;
     color: #FFFFFF;
+    background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B);
+    border-radius:15px;
+    border: 1px solid black;
+}
+
+figure{
+    background-color:white;
+    width:400px;
+    text-align:center;
+    padding:15px;
+    font-family:'Comic Sans MS',cursive;
+    border:1px solid black;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+    transform:rotate(-5deg);
+}
+
+figure:hover{
+    transform:rotate(5deg);
 }
 
 #tb-nutrientes{
