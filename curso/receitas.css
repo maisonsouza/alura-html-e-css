@@ -6,9 +6,9 @@ body{
 }
 
 h2{
+    background:-webkit-linear-gradient(top, #9C8F67,#C7BE9B 30%);
     padding: 5px;
-    color: #FFFFFF;
-    background: -webkit-linear-gradient(top, #9C8F67, #C7BE9B);
+    color: #000000;
     border-radius:15px;
     border: 1px solid black;
 }
@@ -46,11 +46,47 @@ figure:hover{
     background-color: #F8EAB3;
 }
 
-nav ul li{
-    display: inline;
-    margin-right: 50px;
-}
+/*nav ul li{*/
+/*    display: inline;*/
+/*    margin-right: 50px;*/
+/*}*/
 
 section{
     text-align: center;
+}
+
+nav{
+    float:left;
+    width:200px;
+}
+
+#conteudo{
+    float:right;
+    width:740px;
+}
+
+nav ul li {
+    background: #C7BE9B;
+    padding:3px;
+    margin-bottom:5px;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration:none;
+}
+
+nav ul{
+    list-style:none;
+    padding-left:0;
+}
+
+nav ul li:hover{
+    background-color:#9C8F67;
+}
+
+#banner{
+    top: 0;
+    right: 0;
+    position:fixed;
 }
